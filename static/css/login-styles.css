@@ -40,12 +40,12 @@ intro{
 
 #sign-in-button{
     width: 40%;
-    height: 7%;
+    height: 8%;
     border-radius: 0 0 20px 20px;
     border: none;
     background-color: darkslateblue;
     color: aliceblue;
-    font-size: 120%;
+    font-size: 130%;
     font-family: Arial, Helvetica, sans-serif;
     outline: none;
     transition-duration: 0.2s;
@@ -53,6 +53,18 @@ intro{
 
 #sign-in-button:active{
     background-color: cornflowerblue;
+}
+
+#signup-button {
+    background: rgb(74, 28, 180);
+    color: white;
+    border: none;
+    padding: 8px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 150px;
+    margin-top: 10px;
 }
 
 #uname-box,#pswrd-box{
@@ -76,8 +88,23 @@ intro{
 #signup-message{
     color: white;
     font-family: 'Courier New', Courier, monospace;
+    font-size: 120%;
+    margin-top: 20px;
+    display: block;
 }
 
 #signup-link:link, #signup-link:visited{
     color: rgb(152, 255, 138);
+    font-size: 130%;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 2px solid rgb(152, 255, 138);
+    border-radius: 5px;
+    transition-duration: 0.2s;
+}
+
+#signup-link:hover{
+    background-color: rgb(152, 255, 138);
+    color: rgb(74, 28, 180);
 }

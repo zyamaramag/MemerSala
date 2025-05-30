@@ -1,2 +1,10 @@
-Flask==1.1.1
-Flask-Login==0.4.1
+flask>=2.0.1
+flask-login>=0.5.0
+flask-cors>=3.0.10
+flask-restx>=1.1.0
+passlib>=1.7.4
+Werkzeug>=2.3.0
+jsonschema>=4.17.3
+pytest==6.2.5
+pytest-cov==2.12.1
+coverage==5.5 
